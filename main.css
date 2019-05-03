@@ -91,4 +91,9 @@
     width: 30px;
   }
   
-  
+  .quiz-app-links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
