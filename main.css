@@ -6,10 +6,10 @@
 body {
   font-family: 'Oswald',sans-serif; 
   font-size: 20px;
-  color:white;
+  color:black;
   text-align: center;
   line-height: 1.5;
-  background: rgb(81, 81, 238);
+  background: rgb(236, 236, 236);
   
 }
 
@@ -29,6 +29,10 @@ footer{
   
 }
 
+.email{
+  color: white;
+}
+
 
 .topnav {
   overflow: hidden;
@@ -38,6 +42,10 @@ footer{
   top:0%;
   left: 0%;
   right: 0%;
+}
+
+.topnav a:visited{
+  color: white;
 }
 
 
@@ -134,17 +142,29 @@ header {
 }
 
 .quiz-app-links{
+  margin-top: 100px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
   cursor: pointer;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:visited{
-  color: white;
+  color: black;
+}
+
+.beer-app-links{
+  margin-top: 100px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -159,4 +179,3 @@ a:visited{
 
  
 }
-
